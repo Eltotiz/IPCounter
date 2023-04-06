@@ -36,6 +36,7 @@
 
 - Shodan API Key (Free in [Account Shodan](https://account.shodan.io/))
 - Python 3.X
+- The API Key has to be pasted in line 25 of ipcounter.py
 
 
 # Contact
