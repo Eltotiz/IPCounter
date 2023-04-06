@@ -8,19 +8,19 @@
 
 # Scans of:
 
-- Country
-- Status
-- Country Code
-- Region
-- Region Name
-- City
-- Longitude and Latitude
-- Time zone
-- IPS
-- Domains
-- Organization
-- AS
-- Ports
+- **Country**
+- **Status**
+- **Country Code**
+- **Region**
+- **Region Name**
+- **City**
+- **Longitude and Latitude**
+- **Time zone**
+- **IPS**
+- **Domains**
+- **Organization**
+- **AS**
+- **Ports**
 
 [IP Counter provides information on vulnerabilities in IPs]
 
