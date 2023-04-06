@@ -31,3 +31,13 @@
 # Vulnerability Scan
 
 ![Menu](https://cdn.discordapp.com/attachments/1007506642901934123/1093412181757923458/Drawing-1.sketchpad.png)
+
+# Requirements
+
+- Shodan API Key (Free in [Account Shodan](https://account.shodan.io/))
+- Python 3.X
+
+
+# Contact
+
+[Discord: TOTIZ346543#5555](https://discord.com)
