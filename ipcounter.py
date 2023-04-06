@@ -10,6 +10,12 @@ import json
 import requests
 import time
 
+def clear():
+    if os.name == "posix":
+        os.system ("clear")
+    elif os.name == ("ce", "nt", "dos"):
+        os.system ("cls")
+
 banner = """	    ________     ______                  __           
 	   /  _/ __ \   / ____/___  __  ______  / /____  _____
 	   / // /_/ /  / /   / __ \/ / / / __ \/ __/ _ \/ ___/
@@ -22,9 +28,9 @@ banner = """	    ________     ______                  __
 # PLACE YOUR SHODAN KEY
 # PLACE YOUR SHODAN KEY
 
-api = Shodan('PLACE YOUR SHODAN KEY')
+api = Shodan('PLACE YOUR SHODAN KEY HERE')
 
-os.system("clear")
+clear()
 
 print("")
 
@@ -45,7 +51,7 @@ shodanIP = api.host(IP)
 
 data = requests.get(api2).json()
 
-os.system("clear")
+clear()
 
 print("")
 
